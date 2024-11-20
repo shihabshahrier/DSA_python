@@ -29,3 +29,4 @@ if __name__ == "__main__":
     print("previously: ", arr)
     x = mergeSort(arr)
     print("After Sorting: ", x)
+    print("Sorted: ", sorted(arr) == x)
